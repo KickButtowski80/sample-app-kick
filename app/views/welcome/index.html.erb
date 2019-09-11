@@ -1,0 +1,29 @@
+
+<h1>All is going to be ok </h1>
+<h2>Do not loose your hope</h2>
+<h3>Do not listen to your inner voice</h3>
+<%= 1+1 %>
+ 
+<%= "#{ 4 - 9 }" %>
+<% 3.times do %>
+    <h1>Hello</h1>
+<%end%>
+
+<% days = "Mon Tue Wed Thu Fri Sat Sun" %>
+<% months = simple_format("Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug")%>
+
+<%= "Here are the days: #{days}" %>
+<br>
+<%="Here are the months: "%>
+<%= raw months %>
+<br>
+<% five = 5%>
+<%= 
+%Q{
+There's something going on here.
+With this weird quote
+We'll be able to type as much as we like.
+Even 4 lines if we want, or #{five}, or 6.
+} 
+%>
+<h1>I am starting cuz I can start </h1>
